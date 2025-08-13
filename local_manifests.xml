@@ -5,16 +5,17 @@
   <remote name="Thiago22" fetch="https://github.com/thz22"/>
   <remote name="frost" fetch="https://github.com/Frost444"/>
   <remote name="Thiago" fetch="https://github.com/thiagochizz44"/>
-  
+  <remote name="Miguel" fetch="https://github.com/NexusBR-odessa"/>
+ 
 <!--Trees-->
   <project path="device/motorola/odessa"
            name="android_device_motorola_odessa-13"
-           remote="frost"
+           remote="Miguel"
            revision="infinityx" />
            
   <project path="device/motorola/sm6150-common"
            name="device_motorola_sm6150-common"
-           remote="frost"
+           remote="Miguel"
            revision="15.0-QPR2" />
            
   <project path="kernel/motorola/sm6150"
