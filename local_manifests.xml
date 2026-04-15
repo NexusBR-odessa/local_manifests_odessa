@@ -1,39 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="cool585" fetch="https://github.com/cool585"/>
+  <remote name="nexus" fetch="https://github.com/NexusBR-odessa"/>
   <remote name="LineagOS" fetch="https://github.com/LineageOS"/>
-  <remote name="Thiago22" fetch="https://github.com/thz22"/>
   <remote name="frost" fetch="https://github.com/Frost444"/>
-  <remote name="Thiago" fetch="https://github.com/thiagochizz44"/>
   
 <!--Trees-->
   <project path="device/motorola/odessa"
-           name="android_device_motorola_odessa-13"
-           remote="frost"
-           revision="crdroid" />
+           name="android_device_motorola_odessa"
+           remote="nexus"
+           revision="16.0-QPR2" />
            
   <project path="device/motorola/sm6150-common"
-           name="device_motorola_sm6150-common-15"
-           remote="frost"
-           revision="fourteen" />
+           name="device_motorola_sm6150-common"
+           remote="nexus"
+           revision="16.0-QPR2" />
            
   <project path="kernel/motorola/sm6150"
-           name="kernel_motorola_liber"
-           remote="frost"
-           revision="sap" />
+           name="android_kernel_motorola_sm6150"
+           remote="nexus"
+           revision="16.0-QPR2" />
 
     <project path="hardware/motorola"
            name="android_hardware_motorola"
            remote="LineagOS"
-           revision="lineage-21" />
-  
-  <project path="system/qcom"
-           name="android_system_qcom"
-           remote="LineagOS"
-           revision="lineage-21" />
+           revision="lineage-23.2" />
 
   <project path="vendor/motorola"
            name="proprietary_vendor_motorola"
-           remote="Thiago22"
-           revision="qpr3" />  
+           remote="frost"
+           revision="fifteen-1" />  
 </manifest>
